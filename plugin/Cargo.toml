@@ -6,6 +6,7 @@ description = "SWC plugin for removing React properties."
 license = "MIT"
 repository = "https://github.com/g-plane/swc-plugin-react-remove-properties"
 edition = "2021"
+publish = false
 
 [lib]
 crate-type = ["cdylib"]
