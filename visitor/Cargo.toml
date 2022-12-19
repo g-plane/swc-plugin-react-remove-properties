@@ -1,0 +1,20 @@
+[package]
+name = "swc-react-remove-properties-visitor"
+version = "0.0.0"
+authors = ["Pig Fang <g-plane@hotmail.com>"]
+description = "SWC visitor for removing specific React properties."
+license = "MIT"
+repository = "https://github.com/g-plane/swc-plugin-react-remove-properties"
+edition = "2021"
+
+[dependencies]
+matchable = "0.1"
+regex = "1.6"
+swc_core = { version = "0.48", features = [
+    "ecma_ast",
+    "ecma_plugin_transform",
+    "ecma_utils",
+] }
+
+[dev-dependencies]
+swc_ecma_parser = "0.123"
