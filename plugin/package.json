@@ -1,0 +1,18 @@
+{
+    "name": "swc-plugin-react-remove-properties",
+    "description": "SWC plugin for removing React properties.",
+    "version": "0.0.0",
+    "author": "Pig Fang <g-plane@hotmail.com>",
+    "repository": "g-plane/swc-plugin-react-remove-properties",
+    "license": "MIT",
+    "keywords": [
+        "swc-plugin"
+    ],
+    "files": [
+        "swc_plugin_react_remove_properties.wasm"
+    ],
+    "main": "swc_plugin_react_remove_properties.wasm",
+    "scripts": {
+        "prepublishOnly": "cd .. && cargo build -p swc-plugin-react-remove-properties --target wasm32-unknown-unknown --release && cp target/wasm32-unknown-unknown/release/swc_plugin_react_remove_properties.wasm ./plugin"
+    }
+}
