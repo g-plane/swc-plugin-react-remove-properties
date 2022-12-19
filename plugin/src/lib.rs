@@ -13,6 +13,7 @@ use swc_core::{
 use swc_react_remove_properties_visitor::ReactRemovePropertiesVisitor;
 
 #[derive(Debug, Default, Deserialize)]
+#[serde(rename_all = "camelCase", default)]
 pub struct Options {
     properties: Option<Vec<Matchable>>,
 }
