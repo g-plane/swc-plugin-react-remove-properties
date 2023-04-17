@@ -9,12 +9,12 @@ edition = "2021"
 
 [dependencies]
 matchable = "0.1"
-regex = "1.6"
-swc_core = { version = "0.48", features = [
+regex = "1.7"
+swc_core = { version = "0.75", features = [
     "ecma_ast",
     "ecma_plugin_transform",
     "ecma_utils",
 ] }
 
 [dev-dependencies]
-swc_ecma_parser = "0.123"
+swc_ecma_parser = "0.133"
