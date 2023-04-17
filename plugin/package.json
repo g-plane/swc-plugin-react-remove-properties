@@ -1,7 +1,7 @@
 {
     "name": "swc-plugin-react-remove-properties",
     "description": "SWC plugin for removing React properties.",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": "Pig Fang <g-plane@hotmail.com>",
     "repository": "g-plane/swc-plugin-react-remove-properties",
     "license": "MIT",
