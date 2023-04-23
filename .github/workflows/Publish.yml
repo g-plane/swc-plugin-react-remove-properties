@@ -18,6 +18,7 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - uses: actions-rs/toolchain@v1
         with:
+          toolchain: stable
           target: wasm32-unknown-unknown
       - run: npm install -g npm
       - run: |
